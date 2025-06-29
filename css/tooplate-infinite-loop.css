@@ -197,11 +197,12 @@ blockquote {
 
 .tm-hero-title {
   font-size: 3.5rem;
-  text-shadow: 2px 2px 2px #333;
+  text-shadow: 2px 2px 2px #a0a0a0;
 }
 
 .tm-hero-subtitle {
-  text-shadow: 2px 2px 2px #333;
+
+  text-shadow: 2px 2px 2px #a0a0a0;
 }
 
 .tm-intro-next {
