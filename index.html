@@ -225,11 +225,23 @@ https://www.tooplate.com/view/2117-infinite-loop
             </div>
             
             <div class="col-sm-12 col-md-6">
-              <form action="" method="get">
-                <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required />
-                <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required />
-                <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required></textarea>
-                <button type="submit" class="btn tm-btn-submit">Submit</button>
+              <form action="https://formsubmit.co/info@meliocura.nl" method="POST">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" name="email" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea name="message" rows="5" class="form-control" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary mt-3">Send Message</button>
               </form>
             </div>
             
